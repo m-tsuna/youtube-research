@@ -44,6 +44,12 @@ CSV に保存しますか？ (y/n): y
 
 `search.list` の再生回数順（`order=viewCount`）は順番が正確でないので、`videos.list` の本当の再生回数で並べ直しています。
 
+## 使う技術
+
+- Python 3（google-api-python-client・python-dotenv）
+- YouTube Data API v3（API キーで検索・動画の情報を取得）
+- 結果は CSV に保存
+
 ## 事前準備
 
 ### 1. ライブラリのインストール
